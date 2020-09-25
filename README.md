@@ -5,20 +5,25 @@ was transitioned to using R during July 2020. Within this repo, each of these fi
 below is also included as example input and output. 
 
 Once all packages are installed, one can just 'source' the entire script to generate
-3 different outputs after adjusting the date for the file names of the 3 outputs. 
+3 different outputs after adjusting the date for the file names of the 3 outputs (L164, 
+L294, and L381). 
 Those outputs include: 
 
-* 2 [png images](https://github.com/CDCgov/IMslide/images) 
-* 1 [excel file](https://github.com/CDCgov/IMslide/updated.data) with updated information generated in R
+* 2 [png images](https://github.com/CDCgov/IMslide/tree/master/images) 
+* 1 [excel file](https://github.com/CDCgov/IMslide/tree/master/updated.data) with updated information generated in R
 
-The png images are [epi-curves](https://www.cdc.gov/foodsafety/outbreaks/investigating-outbreaks/epi-curves.html) one with correction to exclude high number of probable 
-deaths reported during June. The excel file The input to generate these files is a csv file
-consisting of 5 columns - submission date, total cases, new cases, new deaths, and total deaths. 
+The png images are [epi-curves](https://www.cdc.gov/foodsafety/outbreaks/investigating-outbreaks/epi-curves.html); one with correction to exclude high number of probable 
+deaths reported during June (slide2). The input to generate these files is a csv file
+consisting of 5 columns - submission date, total cases, new cases, new deaths, and total deaths.
+This file was generated daily and made available to those on the routine reporting team. 
 
 This code was developed while on COVID19 response by 
 
 * [Jenna Hamlin](https://github.com/jennahamlin)
 * [Marcella Torres](https://www.linkedin.com/in/marcela-torres24)
+
+As of this writing and because we are no longer on the response changes may have been
+made to generate these images, but hope that this repo could be helpful for others. 
 
 
 --------------------------------------------------------------------------------------------
