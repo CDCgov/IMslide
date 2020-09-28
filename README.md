@@ -4,7 +4,7 @@ for the routine reporting team. Intially, this slide (IM slide 1) was generated 
 was transitioned to using R during July 2020. Within this repo, each of these files discussed
 below is also included as example input and output. 
 
-Once all packages are installed, one can just 'source' the entire script to generate
+Once all packages are installed, one can just 'source' the entire [script](https://github.com/CDCgov/IMslide/tree/master/code) to generate
 3 different outputs after adjusting the date for the file names of the 3 outputs (L164, 
 L294, and L381). 
 Those outputs include: 
