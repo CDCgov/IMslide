@@ -1,7 +1,7 @@
 ## Overview
-This repo serves as documentation of code used to generate IM slide 1 during COVID19 response 
-for the routine reporting team. Intially, this slide (IM slide 1) was generated in excel but 
-was transitioned to using R during July 2020. Within this repo, each of these files discussed
+This repo serves as documentation of code used by the routine reporting team to generate IM slide 1 during the COVID-19 response 
+for the Case Surveillance Section. Intially, this slide (IM slide 1) was generated in excel but 
+was transitioned to R during July 2020. Within this repo, each of these files discussed
 below is also included as example input and output. 
 
 Once all packages are installed, one can just 'source' the entire [script](https://github.com/CDCgov/IMslide/tree/master/code) to generate
@@ -15,12 +15,12 @@ Those outputs include:
 The png images are [epi-curves](https://www.cdc.gov/foodsafety/outbreaks/investigating-outbreaks/epi-curves.html); one with correction to exclude high number of probable 
 deaths reported during June (slide2). The input to generate these files is a csv file
 consisting of 5 columns - submission date, total cases, new cases, new deaths, and total deaths.
-This file was generated daily and made available to those on the routine reporting team. 
+This file was generated daily from DCIPHER and made available to those on the routine reporting team. 
 
 This code was developed while on COVID19 response by 
 
 * [Jenna Hamlin](https://github.com/jennahamlin)
-* [Marcella Torres](https://www.linkedin.com/in/marcela-torres24)
+* [Marcela Torres](https://www.linkedin.com/in/marcela-torres24)
 
 As of this writing and because we are no longer on the response changes may have been
 made to generate these images, but hope that this repo could be helpful for others. 
