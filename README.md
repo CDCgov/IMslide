@@ -23,7 +23,9 @@ This code was developed while on COVID19 response by
 * [Marcela Torres](https://www.linkedin.com/in/marcela-torres24)
 
 As of this writing and because we are no longer on the response changes may have been
-made to generate these images, but hope that this repo could be helpful for others. 
+made to generate these images, but hope that this repo could be helpful for others. We 
+encourage others that are on response and participating in making these figures to 
+provide addtional updates as they see fit. 
 
 
 --------------------------------------------------------------------------------------------
